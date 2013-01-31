@@ -1,0 +1,9 @@
+{
+  "name": "jasmine-dom",
+  "version": "0.0.0",
+  "commit": "38e0c0a0f51eb9168e20cd48ae41ecce658f5eb9",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffwatkins/jasmine-dom.git"
+  }
+}

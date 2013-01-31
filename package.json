@@ -1,0 +1,8 @@
+{
+  "name"            : "mavico",
+  "version"         : "0.0.0",
+  "devDependencies" : {
+    "grunt-jasmine-runner" : "latest",
+    "grunt"         : "~0.3.9"
+  }
+}
