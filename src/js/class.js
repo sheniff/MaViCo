@@ -74,5 +74,17 @@ var Class = function(parent) {
     if(included) included(klass);
   }
 
+  // Proxy function to control the context
+  // As a class property
+  klass.proxy = function(func) {
+    var self = this;
+    return (function() {
+      func.apply(self, arguments);
+    });
+  }
+
+  // And as an instance property
+  klass.fn.proxy = klass.proxy;
+
   return klass;
 }
